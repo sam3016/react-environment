@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 
-function App() {
+function App(props) {
+  const data = props.props.data;
   return (
-    <div>Hello</div>
-  )
-}
+    <div>{data}</div>
+  );
+};
 
-export default App
+export default App;
